@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">No Assembly Required</string>
+    <string name="toolQ">Pick a Project!</string>
+    <string name="subtitle">For tool list,</string>
+    <string name="deskToolTitle">Desk Project Tools List</string>
+    <string name="pergolaToolTitle">Pergola Project Tools List</string>
+    <string name="bicycleToolTitle">Bicycle Project Tools List</string>
+    <string name="tool1">Allen wrench (set) or hex wrench/tool</string>
+    <string name="tool2">Screwdriver - Flathead</string>
+    <string name="tool3">Screwdriver - Philips</string>
+    <string name="tool4">Hammer</string>
+    <string name="tool5">Level</string>
+    <string name="tool6">Crescent Wrench</string>
+    <string name="tool7">Tape Measure</string>
+    <string name="tool8">Utility Knife</string>
+    <string name="tool9">Pliers</string>
+    <string name="tool10">Drill</string>
+    <string name="tool11">Combination Square</string>
+    <string name="tool0">Common Sense (i.e. Read the directions!)</string>
+</resources>

@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="webersolutions.noassemblyrequired.bicycletools"
+    android:background="@drawable/tools">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/bicycleToolTitle"
+        android:id="@+id/bicycleToolTitle"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textSize="30sp"
+        android:textColor="@color/material_blue_grey_950"
+        android:textStyle="bold"
+        android:textAlignment="center" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/bicycleImg"
+        android:layout_below="@+id/bicycleToolTitle"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/tandem" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tool6"
+        android:id="@+id/bikeTool1"
+        android:layout_below="@+id/bicycleImg"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textSize="18sp"
+        android:layout_marginTop="20dp"
+        android:textStyle="bold|italic"
+        android:textColor="@color/material_grey_900" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tool9"
+        android:id="@+id/bikeTool2"
+        android:layout_below="@+id/bikeTool1"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textSize="18sp"
+        android:layout_marginTop="20dp"
+        android:textStyle="bold|italic"
+        android:textColor="@color/material_grey_900" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tool2"
+        android:id="@+id/bikeTool3"
+        android:layout_below="@+id/bikeTool2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textSize="18sp"
+        android:layout_marginTop="20dp"
+        android:textStyle="bold|italic"
+        android:textColor="@color/material_grey_900" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tool3"
+        android:id="@+id/bikeTool4"
+        android:layout_below="@+id/bikeTool3"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textSize="18sp"
+        android:layout_marginTop="20dp"
+        android:textStyle="bold|italic"
+        android:textColor="@color/material_grey_900" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tool4"
+        android:id="@+id/bikeTool5"
+        android:layout_below="@+id/bikeTool4"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textSize="18sp"
+        android:layout_marginTop="20dp"
+        android:textStyle="bold|italic"
+        android:textColor="@color/material_grey_900" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tool0"
+        android:id="@+id/bikeTool6"
+        android:layout_below="@+id/bikeTool5"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="20dp"
+        android:textStyle="bold|italic"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="18sp"
+        android:typeface="serif" />
+
+</RelativeLayout>

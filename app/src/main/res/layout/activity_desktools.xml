@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="webersolutions.noassemblyrequired.desktools"
+    android:background="@drawable/tools">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/dskImg"
+        android:src="@drawable/ikeadesk"
+        android:layout_below="@+id/deskToolTitle"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/deskToolTitle"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="@string/deskToolTitle"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textColor="@color/material_blue_grey_950" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tool1"
+        android:id="@+id/dskToolTxt1"
+        android:layout_below="@+id/dskImg"
+        android:layout_alignLeft="@+id/deskToolTitle"
+        android:layout_alignStart="@+id/deskToolTitle"
+        android:layout_marginTop="30dp"
+        android:textSize="18sp"
+        android:textStyle="bold|italic"
+        android:textColor="@color/material_grey_900" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tool2"
+        android:id="@+id/dskToolTxt2"
+        android:layout_below="@+id/dskToolTxt1"
+        android:layout_alignLeft="@+id/dskToolTxt1"
+        android:layout_alignStart="@+id/dskToolTxt1"
+        android:layout_marginTop="20dp"
+        android:textSize="18sp"
+        android:textStyle="bold|italic"
+        android:textColor="@color/material_grey_900" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tool3"
+        android:id="@+id/dskToolTxt3"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/dskToolTxt2"
+        android:layout_alignLeft="@+id/dskToolTxt2"
+        android:layout_alignStart="@+id/dskToolTxt2"
+        android:textSize="18sp"
+        android:textStyle="bold|italic"
+        android:textColor="@color/material_grey_900" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tool4"
+        android:id="@+id/dskToolTxt4"
+        android:layout_below="@+id/dskToolTxt3"
+        android:layout_alignLeft="@+id/dskToolTxt3"
+        android:layout_alignStart="@+id/dskToolTxt3"
+        android:layout_marginTop="20dp"
+        android:textSize="18sp"
+        android:textStyle="bold|italic"
+        android:textColor="@color/material_grey_900" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tool0"
+        android:id="@+id/dskToolTxt5"
+        android:layout_below="@+id/dskToolTxt4"
+        android:layout_alignLeft="@+id/dskToolTxt4"
+        android:layout_alignStart="@+id/dskToolTxt4"
+        android:layout_marginTop="20dp"
+        android:textSize="18sp"
+        android:textStyle="bold|italic"
+        android:textColor="@color/colorPrimaryDark"
+        android:typeface="serif" />
+
+</RelativeLayout>
